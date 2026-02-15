@@ -1,3 +1,2 @@
-# For spaCy
 python3-dev
 build-essential
