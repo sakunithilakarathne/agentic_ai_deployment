@@ -72,9 +72,9 @@ class EntityExtractor:
         try:
             self.nlp = spacy.load('en_core_web_sm')
         except:
-            print("⚠ spaCy model not found. Installing...")
-            import os
-            os.system('python -m spacy download en_core_web_sm')
+            print("Downloading spaCy model...")
+            import subprocess
+            subprocess.run(['python', '-m', 'spacy', 'download', 'en_core_web_sm'])
             self.nlp = spacy.load('en_core_web_sm')
     
     def extract_kpis(self, text: str, section_id: str, section_title: str) -> List[Entity]:
