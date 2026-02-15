@@ -382,25 +382,3 @@ class DocumentProcessor:
         
         return json_str
 
-
-# Example usage
-if __name__ == "__main__":
-    processor = DocumentProcessor()
-    
-    # Process Strategic Plan
-    strategic_doc = processor.process_document(
-        pdf_path="strategic_plan.pdf",
-        doc_type="strategic_plan"
-    )
-    
-    # Process Action Plan
-    action_doc = processor.process_document(
-        pdf_path="action_plan.pdf",
-        doc_type="action_plan"
-    )
-    
-    # Save to JSON
-    processor.to_json(strategic_doc, "strategic_plan.json")
-    processor.to_json(action_doc, "action_plan.json")
-    
-    print("\n✓ Document processing complete!")

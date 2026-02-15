@@ -616,38 +616,3 @@ If score is >90 and no weak objectives, return empty array: {{"recommendations":
         print(f"\n✓ Complete results saved to {output_path}")
 
 
-# Example usage
-if __name__ == "__main__":
-    # Load analysis results
-    with open('embedding_analysis_results.json', 'r') as f:
-        embedding_results = json.load(f)
-    
-    with open('entity_analysis_results.json', 'r') as f:
-        entity_results = json.load(f)
-    
-    with open('strategic_plan.json', 'r') as f:
-        strategic_doc = json.load(f)
-    
-    with open('action_plan.json', 'r') as f:
-        action_doc = json.load(f)
-    
-    # Initialize scoring engine with OpenAI API key
-    engine = LLMScoringEngine(
-        openai_api_key=os.getenv('OPENAI_API_KEY'),
-        embedding_weight=0.60,
-        entity_weight=0.40,
-        strong_support_threshold=75.0
-    )
-    
-    # Combine scores
-    final_result = engine.combine_scores(
-        embedding_results=embedding_results,
-        entity_results=entity_results,
-        strategic_doc=strategic_doc,
-        action_doc=action_doc
-    )
-    
-    # Save final results
-    engine.save_results(final_result, 'final_synchronization_results.json')
-    
-    print("\n✓ Synchronization assessment complete!")

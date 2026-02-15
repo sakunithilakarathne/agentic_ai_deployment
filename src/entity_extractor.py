@@ -631,25 +631,3 @@ class EntityExtractor:
         
         print(f"\n✓ Results saved to {output_path}")
 
-
-# Example usage
-if __name__ == "__main__":
-    import json
-    
-    # Initialize extractor
-    extractor = EntityExtractor(fuzzy_threshold=85)
-    
-    # Load documents
-    with open('strategic_plan.json', 'r') as f:
-        strategic_doc = json.load(f)
-    
-    with open('action_plan.json', 'r') as f:
-        action_doc = json.load(f)
-    
-    # Analyze
-    result = extractor.analyze_documents(strategic_doc, action_doc)
-    
-    # Save results
-    extractor.save_results(result, 'entity_analysis_results.json')
-    
-    print("\n✓ Entity matching analysis complete!")

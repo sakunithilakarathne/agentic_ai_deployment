@@ -10,6 +10,7 @@ from dataclasses import dataclass, asdict
 import json
 from openai import OpenAI
 from pinecone import Pinecone, ServerlessSpec
+import streamlit as st
 
 
 @dataclass
@@ -404,38 +405,3 @@ class EmbeddingAnalyzer:
         self.index.delete(delete_all=True, namespace="action_plan")
         print("✓ Index cleared")
 
-
-# Example usage
-if __name__ == "__main__":
-    import json
-    from dotenv import load_dotenv
-    
-    # Load environment variables
-    load_dotenv()
-    
-    # Initialize analyzer
-    analyzer = EmbeddingAnalyzer(
-        openai_api_key=os.getenv('OPENAI_API_KEY'),
-        pinecone_api_key=os.getenv('PINECONE_API_KEY'),
-        index_name="strategic-alignment",
-        similarity_threshold=0.70
-    )
-    
-    # Load processed documents
-    with open('strategic_plan.json', 'r') as f:
-        strategic_doc = json.load(f)
-    
-    with open('action_plan.json', 'r') as f:
-        action_doc = json.load(f)
-    
-    # Analyze synchronization
-    result = analyzer.analyze_synchronization(
-        strategic_doc=strategic_doc,
-        action_doc=action_doc,
-        top_k=5
-    )
-    
-    # Save results
-    analyzer.save_results(result, 'embedding_analysis_results.json')
-    
-    print("\n✓ Embedding analysis complete!")

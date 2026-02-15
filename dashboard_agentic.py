@@ -119,7 +119,7 @@ def initialize_rag():
         return None
     
     load_dotenv()
-    openai_key = os.getenv('OPENAI_API_KEY')
+    openai_key = st.secrets.get("OPENAI_API_KEY") or os.getenv('OPENAI_API_KEY')
     pinecone_key = os.getenv('PINECONE_API_KEY')
     
     if not openai_key or not pinecone_key:
@@ -155,7 +155,7 @@ def run_agent_analysis():
         analysis_results = json.load(f)
     
     # Run agent
-    agent = AgenticAI(openai_api_key=os.getenv('OPENAI_API_KEY'))
+    agent = AgenticAI(openai_key = st.secrets.get("OPENAI_API_KEY") or os.getenv('OPENAI_API_KEY'))
     result = agent.analyze(strategic_doc, action_doc, analysis_results)
     agent.save_results(result, AGENTIC_AI_RESULTS_PATH)
     
@@ -171,7 +171,7 @@ def accept_proposal(proposal_id: str):
         action_doc = json.load(f)
     
     # Accept proposal
-    agent = AgenticAI(openai_api_key=os.getenv('OPENAI_API_KEY'))
+    agent = AgenticAI(openai_key = st.secrets.get("OPENAI_API_KEY") or os.getenv('OPENAI_API_KEY'))
     updated_action_doc = agent.accept_proposal(
         proposal_id=proposal_id,
         action_doc=action_doc,

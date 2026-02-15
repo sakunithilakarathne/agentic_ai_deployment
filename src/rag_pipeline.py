@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from openai import OpenAI
 from pinecone import Pinecone
 import time
-
+import streamlit as st
 
 @dataclass
 class DocumentChunk:
@@ -591,55 +591,3 @@ Answer:"""
         self.index.delete(delete_all=True, namespace="rag")
         print("✓ Vector store cleared")
 
-
-# Example usage
-if __name__ == "__main__":
-    import os
-    from dotenv import load_dotenv
-    
-    load_dotenv()
-    
-    # Initialize RAG pipeline
-    rag = RAGPipeline(
-        openai_api_key=os.getenv('OPENAI_API_KEY'),
-        pinecone_api_key=os.getenv('PINECONE_API_KEY'),
-        index_name="strategic-rag"
-    )
-    
-    # Load documents
-    with open('strategic_plan.json', 'r') as f:
-        strategic_doc = json.load(f)
-    
-    with open('action_plan.json', 'r') as f:
-        action_doc = json.load(f)
-    
-    with open('final_synchronization_results.json', 'r') as f:
-        analysis_results = json.load(f)
-    
-    # Build vector store
-    rag.build_vector_store(
-        strategic_doc=strategic_doc,
-        action_doc=action_doc,
-        analysis_results=analysis_results
-    )
-    
-    # Test with sample questions
-    questions = [
-        "Why is the Digital Transformation objective scoring high?",
-        "What are the main weaknesses in the Risk Management objective?",
-        "What specific actions are recommended for improving alignment?"
-    ]
-    
-    print("\n" + "="*70)
-    print("TESTING RAG PIPELINE")
-    print("="*70)
-    
-    for question in questions:
-        result = rag.answer_question(question)
-        print(f"\n{'='*70}")
-        print(f"Q: {question}")
-        print(f"{'='*70}")
-        print(f"A: {result['answer']}")
-        print(f"\nSources used: {result['num_contexts_used']}")
-    
-    print("\n✓ RAG pipeline test complete!")
