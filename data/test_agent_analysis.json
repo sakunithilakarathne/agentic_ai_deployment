@@ -1,0 +1,135 @@
+{
+  "timestamp": "2026-02-15 19:01:50",
+  "critical_findings": [
+    {
+      "id": "entities_1",
+      "severity": "high",
+      "title": "Significant Entity Coverage Gaps",
+      "description": "121 strategic entities (KPIs, targets) not tracked in action plan.",
+      "affected_objective": "Multiple objectives",
+      "impact": "Medium - Accountability and measurement gaps across strategic plan",
+      "evidence": [
+        "Total unmatched: 121",
+        "Match rate: 40.5%"
+      ]
+    }
+  ],
+  "proposals": [
+    {
+      "id": "proposal_finding_entities_1_0",
+      "priority": "medium",
+      "objective_id": "finding_entities_1",
+      "objective_title": "Multiple objectives",
+      "action_title": "Monthly KPI Tracking Dashboard",
+      "description": "Implement comprehensive monthly tracking dashboard for all strategic KPIs with automated alerts for off-track metrics.",
+      "budget_estimate": 250000,
+      "timeline": "Q1 2025 - Q2 2025",
+      "expected_kpis": [
+        "100% KPI coverage",
+        "Monthly tracking reports",
+        "Automated variance alerts"
+      ],
+      "rationale": "Addresses the 121 unmatched strategic entities by ensuring all KPIs have explicit tracking mechanisms",
+      "expected_impact": "Would improve entity match rate from 40.5% to 85%+ by adding systematic tracking for all strategic metrics",
+      "status": "pending"
+    },
+    {
+      "id": "proposal_finding_entities_1_1",
+      "priority": "medium",
+      "objective_id": "finding_entities_1",
+      "objective_title": "Multiple objectives",
+      "action_title": "Strategic Alignment Workshops",
+      "description": "Conduct quarterly strategic alignment workshops to ensure all strategic entities are continuously matched with departmental action plans.",
+      "budget_estimate": 150000,
+      "timeline": "Q2 2025 - ongoing",
+      "expected_kpis": [
+        "Quarterly alignment score improvements",
+        "100% entity coverage in action plans",
+        "Increased accountability across departments"
+      ],
+      "rationale": "Facilitates ongoing dialogue and adjustment between strategy and execution teams, ensuring no strategic entity remains unmatched.",
+      "expected_impact": "Gradually increases the match rate to 100% over a year, ensuring full accountability and measurement across the strategic plan.",
+      "status": "pending"
+    },
+    {
+      "id": "proposal_entity_tracking_0",
+      "priority": "medium",
+      "objective_id": "entity_tracking",
+      "objective_title": "Enterprise-wide KPI Tracking",
+      "action_title": "Strategic KPI Monitoring Framework",
+      "description": "Establish comprehensive KPI monitoring framework with monthly dashboards, automated data collection, and variance reporting for all strategic metrics.",
+      "budget_estimate": 300000,
+      "timeline": "Q1 2025 - Q3 2025",
+      "expected_kpis": [
+        "100% strategic KPI coverage",
+        "Monthly KPI dashboards",
+        "Automated alerts for off-track metrics",
+        "Quarterly Board reporting"
+      ],
+      "rationale": "Addresses systematic gap of 121 unmatched entities by creating explicit tracking mechanisms for all strategic metrics",
+      "expected_impact": "Would improve entity match score from 40.5% to 85%+ by ensuring every strategic target has a corresponding measurement and tracking mechanism in the action plan",
+      "status": "pending"
+    },
+    {
+      "id": "proposal_entity_tracking_1",
+      "priority": "medium",
+      "objective_id": "entity_tracking",
+      "objective_title": "Enterprise-wide KPI Tracking",
+      "action_title": "KPI Alignment Workshops",
+      "description": "Conduct quarterly KPI alignment workshops with all department heads to ensure strategic KPIs are integrated into departmental action plans and individual performance objectives.",
+      "budget_estimate": 75000,
+      "timeline": "Q2 2025 - Ongoing",
+      "expected_kpis": [
+        "Increased KPI alignment across departments",
+        "100% departmental action plans with integrated strategic KPIs",
+        "Improved KPI literacy among staff"
+      ],
+      "rationale": "Directly tackles the accountability gaps and misalignments between strategic KPIs and departmental action plans",
+      "expected_impact": "Enhances overall synchronization score to 75%+ by fostering a culture of accountability and ensuring strategic KPIs are actionable at all levels of the organization",
+      "status": "pending"
+    },
+    {
+      "id": "proposal_entity_tracking_2",
+      "priority": "medium",
+      "objective_id": "entity_tracking",
+      "objective_title": "Enterprise-wide KPI Tracking",
+      "action_title": "Automated KPI Tracking System",
+      "description": "Implement an organization-wide automated KPI tracking system that integrates with existing databases and software to ensure real-time tracking of strategic KPIs.",
+      "budget_estimate": 450000,
+      "timeline": "Q3 2025 - Q1 2026",
+      "expected_kpis": [
+        "Real-time KPI tracking",
+        "Integration with existing systems",
+        "Reduced manual data entry errors",
+        "Enhanced data accuracy and timeliness"
+      ],
+      "rationale": "Eliminates manual tracking errors and delays in data collection, addressing the root cause of unmatched strategic entities",
+      "expected_impact": "Expected to increase the entity match score to 90%+ by enabling precise and timely tracking of all strategic KPIs, thereby closing the tracking gaps identified",
+      "status": "pending"
+    }
+  ],
+  "impact_simulation": {
+    "current_score": 57.31349422629758,
+    "projected_score": 73.31349422629758,
+    "improvement": 16.0,
+    "affected_objectives": [
+      {
+        "objective_title": "Entity Tracking & KPI Coverage",
+        "current_score": 40.484429065743946,
+        "projected_score": 80.48442906574394,
+        "improvement": 39.99999999999999
+      }
+    ]
+  },
+  "summary": {
+    "total_findings": 1,
+    "critical_count": 0,
+    "high_count": 1,
+    "total_proposals": 5,
+    "high_priority_proposals": 0,
+    "current_score": 57.31349422629758,
+    "projected_score": 73.31349422629758,
+    "improvement": 16.0,
+    "objectives_affected": 1
+  }
+}

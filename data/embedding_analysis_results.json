@@ -1,0 +1,199 @@
+{
+  "overall_score": 68.532871,
+  "average_similarity": 0.6853287100000001,
+  "objectives_with_support": 1,
+  "objectives_without_support": 4,
+  "threshold": 0.7,
+  "objective_alignments": [
+    {
+      "objective_id": "obj_1",
+      "objective_title": "DIGITAL TRANSFORMATION & INNOVATION",
+      "best_match_score": 0.678659499,
+      "has_support": false,
+      "top_matches": [
+        {
+          "action_id": "action_1_5",
+          "action_title": "Digital-Only Product Innovation",
+          "similarity_score": 0.678659499,
+          "rank": 1
+        },
+        {
+          "action_id": "action_1_1",
+          "action_title": "Mobile-First Platform Redesign",
+          "similarity_score": 0.66708374,
+          "rank": 2
+        },
+        {
+          "action_id": "action_5_2",
+          "action_title": "Omnichannel Integration Platform",
+          "similarity_score": 0.645610809,
+          "rank": 3
+        },
+        {
+          "action_id": "action_1_2",
+          "action_title": "Cloud Infrastructure Migration",
+          "similarity_score": 0.6281147,
+          "rank": 4
+        },
+        {
+          "action_id": "action_3_3",
+          "action_title": "Branch Network Optimization",
+          "similarity_score": 0.621772766,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "objective_id": "obj_2",
+      "objective_title": "SUSTAINABLE GROWTH & MARKET EXPANSION",
+      "best_match_score": 0.746183455,
+      "has_support": true,
+      "top_matches": [
+        {
+          "action_id": "action_2_1",
+          "action_title": "Geographic Market Expansion - Atlanta Metro",
+          "similarity_score": 0.746183455,
+          "rank": 1
+        },
+        {
+          "action_id": "action_2_2",
+          "action_title": "SME Banking Excellence Program",
+          "similarity_score": 0.690597534,
+          "rank": 2
+        },
+        {
+          "action_id": "action_2_3",
+          "action_title": "Wealth Management Growth Initiative",
+          "similarity_score": 0.686740875,
+          "rank": 3
+        },
+        {
+          "action_id": "action_2_4",
+          "action_title": "Commercial Real Estate (CRE) Lending Expansion",
+          "similarity_score": 0.66875267,
+          "rank": 4
+        },
+        {
+          "action_id": "action_2_5",
+          "action_title": "Strategic Acquisition Evaluation",
+          "similarity_score": 0.666912079,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "objective_id": "obj_3",
+      "objective_title": "OPERATIONAL EXCELLENCE & EFFICIENCY",
+      "best_match_score": 0.681093216,
+      "has_support": false,
+      "top_matches": [
+        {
+          "action_id": "action_3_3",
+          "action_title": "Branch Network Optimization",
+          "similarity_score": 0.681093216,
+          "rank": 1
+        },
+        {
+          "action_id": "action_3_1",
+          "action_title": "Robotic Process Automation (RPA) Deployment",
+          "similarity_score": 0.678642273,
+          "rank": 2
+        },
+        {
+          "action_id": "action_3_2",
+          "action_title": "Centralized Operations Hub",
+          "similarity_score": 0.66059494,
+          "rank": 3
+        },
+        {
+          "action_id": "action_3_5",
+          "action_title": "Lean Six Sigma Continuous Improvement",
+          "similarity_score": 0.611492157,
+          "rank": 4
+        },
+        {
+          "action_id": "action_5_2",
+          "action_title": "Omnichannel Integration Platform",
+          "similarity_score": 0.601985931,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "objective_id": "obj_4",
+      "objective_title": "RISK MANAGEMENT & REGULATORY EXCELLENCE",
+      "best_match_score": 0.684652328,
+      "has_support": false,
+      "top_matches": [
+        {
+          "action_id": "action_4_2",
+          "action_title": "Climate Risk Framework",
+          "similarity_score": 0.684652328,
+          "rank": 1
+        },
+        {
+          "action_id": "action_4_1",
+          "action_title": "Advanced Risk Analytics Platform",
+          "similarity_score": 0.682172775,
+          "rank": 2
+        },
+        {
+          "action_id": "action_4_5",
+          "action_title": "Enterprise Stress Testing Capability",
+          "similarity_score": 0.654258728,
+          "rank": 3
+        },
+        {
+          "action_id": "action_4_3",
+          "action_title": "Regulatory Technology (RegTech) Implementation",
+          "similarity_score": 0.619298935,
+          "rank": 4
+        },
+        {
+          "action_id": "action_1_2",
+          "action_title": "Cloud Infrastructure Migration",
+          "similarity_score": 0.580635071,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "objective_id": "obj_5",
+      "objective_title": "CUSTOMER EXPERIENCE & SATISFACTION",
+      "best_match_score": 0.636055052,
+      "has_support": false,
+      "top_matches": [
+        {
+          "action_id": "action_5_1",
+          "action_title": "Voice of Customer Program",
+          "similarity_score": 0.636055052,
+          "rank": 1
+        },
+        {
+          "action_id": "action_5_5",
+          "action_title": "Service Recovery Excellence Program",
+          "similarity_score": 0.606872618,
+          "rank": 2
+        },
+        {
+          "action_id": "action_5_2",
+          "action_title": "Omnichannel Integration Platform",
+          "similarity_score": 0.597904265,
+          "rank": 3
+        },
+        {
+          "action_id": "action_2_2",
+          "action_title": "SME Banking Excellence Program",
+          "similarity_score": 0.594348967,
+          "rank": 4
+        },
+        {
+          "action_id": "action_5_4",
+          "action_title": "Financial Literacy and Education Programs",
+          "similarity_score": 0.586868346,
+          "rank": 5
+        }
+      ]
+    }
+  ]
+}

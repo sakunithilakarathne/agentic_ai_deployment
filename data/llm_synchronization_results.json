@@ -1,0 +1,232 @@
+{
+  "overall_score": 57.31349422629758,
+  "embedding_score": 68.532871,
+  "entity_score": 40.484429065743946,
+  "assessment_date": "2026-02-15 07:21:56",
+  "strategic_plan": "STRATEGIC PLAN 2025-2028",
+  "action_plan": "ACTION PLAN 2025-2028",
+  "summary": {
+    "total_objectives": 5,
+    "objectives_with_strong_support": 5,
+    "objectives_with_weak_support": 0,
+    "total_strategic_entities": 169,
+    "matched_entities": 48,
+    "unmatched_entities": 121
+  },
+  "objective_synchronizations": [
+    {
+      "objective_id": "obj_1",
+      "objective_title": "DIGITAL TRANSFORMATION & INNOVATION",
+      "embedding_score": 67.8659499,
+      "entity_matches": 8,
+      "entity_score": 100,
+      "combined_score": 80.71956994,
+      "has_strong_support": true,
+      "top_matching_actions": [
+        {
+          "action_id": "action_1_5",
+          "action_title": "Digital-Only Product Innovation",
+          "similarity_score": 0.678659499,
+          "rank": 1
+        },
+        {
+          "action_id": "action_1_1",
+          "action_title": "Mobile-First Platform Redesign",
+          "similarity_score": 0.66708374,
+          "rank": 2
+        },
+        {
+          "action_id": "action_5_2",
+          "action_title": "Omnichannel Integration Platform",
+          "similarity_score": 0.645610809,
+          "rank": 3
+        }
+      ],
+      "gaps": [
+        "Low semantic similarity - action may not address objective intent",
+        "Best match score (0.68) below threshold"
+      ]
+    },
+    {
+      "objective_id": "obj_2",
+      "objective_title": "SUSTAINABLE GROWTH & MARKET EXPANSION",
+      "embedding_score": 74.6183455,
+      "entity_matches": 9,
+      "entity_score": 100,
+      "combined_score": 84.77100730000001,
+      "has_strong_support": true,
+      "top_matching_actions": [
+        {
+          "action_id": "action_2_1",
+          "action_title": "Geographic Market Expansion - Atlanta Metro",
+          "similarity_score": 0.746183455,
+          "rank": 1
+        },
+        {
+          "action_id": "action_2_2",
+          "action_title": "SME Banking Excellence Program",
+          "similarity_score": 0.690597534,
+          "rank": 2
+        },
+        {
+          "action_id": "action_2_3",
+          "action_title": "Wealth Management Growth Initiative",
+          "similarity_score": 0.686740875,
+          "rank": 3
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "objective_id": "obj_3",
+      "objective_title": "OPERATIONAL EXCELLENCE & EFFICIENCY",
+      "embedding_score": 68.1093216,
+      "entity_matches": 9,
+      "entity_score": 100,
+      "combined_score": 80.86559296,
+      "has_strong_support": true,
+      "top_matching_actions": [
+        {
+          "action_id": "action_3_3",
+          "action_title": "Branch Network Optimization",
+          "similarity_score": 0.681093216,
+          "rank": 1
+        },
+        {
+          "action_id": "action_3_1",
+          "action_title": "Robotic Process Automation (RPA) Deployment",
+          "similarity_score": 0.678642273,
+          "rank": 2
+        },
+        {
+          "action_id": "action_3_2",
+          "action_title": "Centralized Operations Hub",
+          "similarity_score": 0.66059494,
+          "rank": 3
+        }
+      ],
+      "gaps": [
+        "Low semantic similarity - action may not address objective intent",
+        "Best match score (0.68) below threshold"
+      ]
+    },
+    {
+      "objective_id": "obj_4",
+      "objective_title": "RISK MANAGEMENT & REGULATORY EXCELLENCE",
+      "embedding_score": 68.4652328,
+      "entity_matches": 6,
+      "entity_score": 100,
+      "combined_score": 81.07913968,
+      "has_strong_support": true,
+      "top_matching_actions": [
+        {
+          "action_id": "action_4_2",
+          "action_title": "Climate Risk Framework",
+          "similarity_score": 0.684652328,
+          "rank": 1
+        },
+        {
+          "action_id": "action_4_1",
+          "action_title": "Advanced Risk Analytics Platform",
+          "similarity_score": 0.682172775,
+          "rank": 2
+        },
+        {
+          "action_id": "action_4_5",
+          "action_title": "Enterprise Stress Testing Capability",
+          "similarity_score": 0.654258728,
+          "rank": 3
+        }
+      ],
+      "gaps": [
+        "Low semantic similarity - action may not address objective intent",
+        "Best match score (0.68) below threshold"
+      ]
+    },
+    {
+      "objective_id": "obj_5",
+      "objective_title": "CUSTOMER EXPERIENCE & SATISFACTION",
+      "embedding_score": 63.6055052,
+      "entity_matches": 35,
+      "entity_score": 100,
+      "combined_score": 78.16330312,
+      "has_strong_support": true,
+      "top_matching_actions": [
+        {
+          "action_id": "action_5_1",
+          "action_title": "Voice of Customer Program",
+          "similarity_score": 0.636055052,
+          "rank": 1
+        },
+        {
+          "action_id": "action_5_5",
+          "action_title": "Service Recovery Excellence Program",
+          "similarity_score": 0.606872618,
+          "rank": 2
+        },
+        {
+          "action_id": "action_5_2",
+          "action_title": "Omnichannel Integration Platform",
+          "similarity_score": 0.597904265,
+          "rank": 3
+        }
+      ],
+      "gaps": [
+        "Low semantic similarity - action may not address objective intent",
+        "Best match score (0.64) below threshold"
+      ]
+    }
+  ],
+  "strengths": [
+    "The 'SUSTAINABLE GROWTH & MARKET EXPANSION' objective scored the highest with 84.8/100, highlighting the strategic plan's strong focus on expanding market presence effectively. The high score, particularly the 74.6 embedding score and 9 entity matches, indicates a well-integrated approach to identifying and pursuing growth opportunities, specifically through geographic expansion into the Atlanta Metro area.",
+    "The plan demonstrates a robust approach to 'RISK MANAGEMENT & REGULATORY EXCELLENCE' with an 81.1/100 score. This strength is underscored by a solid embedding score of 68.5 and 6 entity matches, reflecting a strategic alignment with regulatory requirements and proactive risk management practices, particularly through the implementation of a Climate Risk Framework.",
+    "With an 'OPERATIONAL EXCELLENCE & EFFICIENCY' objective scoring 80.9/100, the plan showcases a strong commitment to improving operational processes. The objective's high score is supported by an embedding score of 68.1 and 9 entity matches, indicating a strategic focus on optimizing the branch network to enhance efficiency and service delivery."
+  ],
+  "weaknesses": [
+    "Low semantic similarity in objectives suggests actions may not effectively address the intended goals, impacting the strategic alignment and effectiveness.",
+    "A high number of unmatched strategic entities (121 out of 169) indicates a significant gap in plan coverage, potentially leaving critical areas without strategic focus or action.",
+    "The best match scores for objectives being below the threshold highlights a weak connection between planned actions and strategic objectives, risking the achievement of these objectives."
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "objective": "Improve Strategic Alignment",
+      "current_score": 57.3,
+      "actions": [
+        "Revise objectives to ensure they are directly linked to strategic goals, using a framework like SMART to enhance clarity and measurability.",
+        "Conduct a gap analysis to identify and address the unmatched strategic entities."
+      ],
+      "expected_impact": "Enhanced strategic alignment will ensure that all actions are directly contributing to the organization's goals, potentially improving the overall score by aligning objectives with strategic intents."
+    },
+    {
+      "priority": "high",
+      "objective": "Enhance Plan Coverage",
+      "current_score": 57.3,
+      "actions": [
+        "Map out all unmatched strategic entities to existing or new objectives to ensure comprehensive coverage.",
+        "Implement a continuous review process to identify and integrate emerging strategic entities into the plan."
+      ],
+      "expected_impact": "This will reduce the number of unmatched strategic entities, ensuring that critical areas are not left without focus and action, thereby improving the effectiveness of the strategic plan."
+    },
+    {
+      "priority": "medium",
+      "objective": "Strengthen Objective-Action Connection",
+      "current_score": 57.3,
+      "actions": [
+        "Utilize advanced analytics to assess and increase the semantic similarity between objectives and actions.",
+        "Regularly review and adjust actions to ensure they remain aligned with strategic objectives as they evolve."
+      ],
+      "expected_impact": "Improving the connection between objectives and actions will directly contribute to the achievement of strategic goals, potentially increasing the overall score by ensuring that efforts are not misdirected."
+    },
+    {
+      "priority": "medium",
+      "objective": "Optimize Digital Banking Adoption",
+      "current_score": 57.3,
+      "actions": [
+        "Launch targeted digital literacy programs for customers to increase digital banking adoption.",
+        "Enhance the mobile app interface and user experience to improve the mobile app rating."
+      ],
+      "expected_impact": "Targeted improvements in customer digital literacy and app usability can significantly increase digital banking adoption rates and improve customer onboarding times."
+    }
+  ]
+}
